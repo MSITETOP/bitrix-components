@@ -1,0 +1,85 @@
+.form-mrcrook {
+	
+}
+.form-mrcrook .right {
+
+}
+.form-mrcrook .left {
+
+}
+.form-mrcrook .form-group {
+	position: relative;
+	width: 100%;
+}
+.form-mrcrook .form-group .name-fild {
+	font-size: 18px;
+	float: left;
+	color: #fff;
+	line-height: 24px;
+	height: 24px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-shadow: 0px 0px 1px #333;
+}
+.form-mrcrook .form-group .error-text {
+	font-size: 12px;
+	float: right;
+	color: #fff;
+	line-height: 24px;
+	height: 24px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-shadow: 0px 0px 1px #333;
+}
+.form-mrcrook input, .form-mrcrook textarea {
+	border: 2px solid transparent;
+	border-radius:3px;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	outline: 0;
+	padding: 0 5px;
+	color: rgb(33, 33, 33);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0;
+}
+.form-mrcrook textarea {
+	height: 172px;
+	max-height: 172px;
+	width: 100%;
+	max-width: 100%;
+}
+.form-mrcrook .error input, .form-mrcrook .error textarea {
+	border: 2px solid #cf0e4f;
+}
+.button_call-to-act {
+	border: 0;
+	border-radius: 3px;
+	float: left;
+}
+.message-form-mrcrook {
+	display: none;
+	padding: 10px;
+    color: green;
+    text-shadow: 1px 1px 2px #fff;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 3px;
+}
+@media (min-width: 992px) {
+	.form-mrcrook .right {
+		float: right;
+	}
+	.form-mrcrook .left {
+		float: left;
+	}
+	.form-mrcrook .form-group {
+		position: relative;
+		width: 440px;
+	}
+	.form-mrcrook textarea {
+		width: 440px;
+		max-width: 440px;
+	}
+}
